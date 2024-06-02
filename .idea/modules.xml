@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/AssigningFunctiontToMain/AssigningFunctiontToMain.iml" filepath="$PROJECT_DIR$/AssigningFunctiontToMain/AssigningFunctiontToMain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AssigningFunctiontToMain/AssignmentOne/AssignmentOne.iml" filepath="$PROJECT_DIR$/AssigningFunctiontToMain/AssignmentOne/AssignmentOne.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/OOPAssignments.iml" filepath="$PROJECT_DIR$/.idea/OOPAssignments.iml" />
     </modules>
   </component>
