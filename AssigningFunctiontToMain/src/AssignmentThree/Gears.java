@@ -9,13 +9,13 @@ public class Gears {
     public Gears(int initialGear, int maxGear) {
 
         gear = initialGear;
-        gear = HigherGear(initialGear, maxGear);
-        gear = LowerGear(gear);
+        gear = higherGear(initialGear, maxGear);
+        gear = lowerGear(gear);
         materials = Materials.aluminium;
 
     }
 
-    public int HigherGear(int currentGear, int maxGear){
+    public int higherGear(int currentGear, int maxGear){
         int newGear = currentGear+1;
         if (newGear >= maxGear) {
             newGear = maxGear;
@@ -26,7 +26,7 @@ public class Gears {
         return newGear;
     }
 
-    public int LowerGear(int currentGear){
+    public int lowerGear(int currentGear){
         int newGear = currentGear-1;
         if (newGear < 1){
             newGear = 1;
